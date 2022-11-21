@@ -1,0 +1,10 @@
+WEB SCRAPPING using BEAUTIFULSOUP package in python(without using any web scrapping tool)
+We start by opening the site that we want to scrap. 
+1) copy the URL into a variable.
+2) import "requests" in python , to use "get" method which issues HTTP GET request to a given URL.
+3) page=requests.get(URL) 
+   print(page.text)
+   this command gives whole content of the given page .
+4) It prints the whole content (html code) of given page.
+5) we can use the javascript elements to grab or scrap only the selective cotents by mentioning the element ID.
+6) we can use prettify method in beautifulsuop package to print only the content not along with html tags.
